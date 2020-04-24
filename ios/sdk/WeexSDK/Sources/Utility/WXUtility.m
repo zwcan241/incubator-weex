@@ -528,7 +528,7 @@ CGFloat WXFloorPixelValue(CGFloat value)
                                }
                            }
                            
-                           if ([fontFamily isEqualToString:@"iconfont"]) {
+                           if ([fontFamily isEqualToString:@"null"]) {
                                WXLogError(@"Using iconfont with family name 'iconfont' is prohibited.");
                                if (error) {
                                    WXLogError(@"Unable to register font, %@.", fontFamilyDic);
